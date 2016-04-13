@@ -1,0 +1,30 @@
+# Start of Constraints extracted by Floorplanner from the Design
+#INST "clk_synth_18_8_1/BUFGMUX_18" LOC = "BUFGMUX_X1Y1" ;
+#INST "clk_synth_18_8_1/BUFGMUX_8" LOC = "BUFGMUX_X2Y0" ;
+#INST "clk_synth_18_8_1/DCM_SP_INST2" LOC = "DCM_X0Y0" ;
+#INST "clk_synth_18_8_1/U2_CLK0_BUFG_INST" LOC = "BUFGMUX_X1Y0" ;
+#INST "clk_synth_18_8_1/DCM_SP_INST1" LOC = "DCM_X1Y0" ;
+#INST "clk_synth_18_8_1/U1_CLK0_BUFG_INST" LOC = "BUFGMUX_X2Y1" ;
+#NET "LED_LOCKED" LOC = "P181" ;
+#NET "LED_CLK_18" LOC = "P172" ;
+#NET "LED_CLK_8" LOC = "P171" ;
+#NET "CLK_18_IN" LOC = "P78" ;
+#NET "CLK_8_IN" LOC = "P77" ;
+#NET "ATE_RDY" LOC = "P15" ;
+#NET "ATE_DVAL" LOC = "P19" ;
+#NET "ATE_DATA<13>" LOC = "P24" ;
+#NET "ATE_DATA<12>" LOC = "P25" ;
+#NET "ATE_DATA<11>" LOC = "P30" ;
+#NET "ATE_DATA<10>" LOC = "P31" ;
+#NET "ATE_DATA<9>" LOC = "P33" ;
+#NET "ATE_DATA<8>" LOC = "P34" ;
+#NET "ATE_DATA<7>" LOC = "P39" ;
+#NET "ATE_DATA<6>" LOC = "P40" ;
+#NET "ATE_DATA<5>" LOC = "P41" ;
+#NET "ATE_DATA<4>" LOC = "P42" ;
+#NET "ATE_DATA<3>" LOC = "P35" ;
+#NET "ATE_DATA<2>" LOC = "P36" ;
+#NET "ATE_DATA<1>" LOC = "P3" ;
+#NET "ATE_DATA<0>" LOC = "P2" ;
+PIN "clk_synth_18_8_1/DCM_SP_INST1.CLK0" CLOCK_DEDICATED_ROUTE = FALSE;
+

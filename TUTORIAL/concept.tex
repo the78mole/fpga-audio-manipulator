@@ -1,0 +1,22 @@
+\part{Konzept}
+
+\section{Grundlegende Überlegungen}
+
+Die gewünschte Quelle und Senke erfordern eine Anpassung der Schaltung sowohl im Ein-, als auch im Ausgangspfad. Ist eine Leistungsverstärkung am Ausgang gewünscht, kommt ein einfacher NF-Kleinleistungsverstärker zum Einsatz, die bereits in vielen Bausätzen als Referenzdesign vorliegen. Schwieriger wird allrdings die Verfälschung der digitalen Daten in Echtzeit. Dazu soll ein FPGA zum Einsatz kommen, der anhand mehrerer Module die gewünschte Veränderung durchführt. Mögliche Varianten der Implementierung sind folgende:
+
+\begin{itemize}
+	\item Look-Up Tables
+	\begin{itemize}
+		\item Mit Interpolation
+		\item Ohne Interpolation\footnote{Kommt aufgrund ungenügender Ressourcen nicht zum Einsatz}
+	\end{itemize}
+	\item Einfache Arithmetik
+	\begin{itemize}
+		\item Addition
+		\item Multiplikation
+		\item Potenzen niedriger Ordnung
+	\end{itemize}
+	\item Komplexe Berechnungen (CORDIC)
+	\item Pseudo-Random Noise
+\end{itemize}
+
